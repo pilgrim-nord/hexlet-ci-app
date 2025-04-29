@@ -1,5 +1,6 @@
 name: workflow.yml
-on:push
+on:
+  - push
 
 jobs:
   build:
